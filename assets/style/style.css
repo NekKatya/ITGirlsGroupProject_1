@@ -41,7 +41,7 @@
 .title {
     color: var(--gray-2, #4F4F4F);
     font-size: 96px;
-    font-family: 'sf_pro_displayblack';
+    font-family: 'SF Pro Display';
     font-weight: 900;
     line-height: 110px;
     text-transform: uppercase;
@@ -50,7 +50,7 @@
 .abstract {
     color: var(--gray-3, #828282);
     font-size: 18px;
-    font-family: 'sf_pro_displaymedium';
+    font-family: 'SF Pro Display';
     font-weight: 500;
     line-height: 26px;
 }
