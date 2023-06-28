@@ -3,7 +3,6 @@
     src: url('fonts/sf-pro-display-black-webfont.woff2') format('woff2'),
         url('fonts/sf-pro-display-black-webfont.woff') format('woff');
     font-weight: 900;
-    font-style: bold;
 }
 
 @font-face {
@@ -11,7 +10,6 @@
     src: url('fonts/sf-pro-display-bold-webfont.woff2') format('woff2'),
         url('fonts/sf-pro-display-bold-webfont.woff') format('woff');
     font-weight: 700;
-    font-style: light bold;
 }
 
 @font-face {
@@ -19,7 +17,6 @@
     src: url('fonts/sf-pro-display-heavy-webfont.woff2') format('woff2'),
         url('fonts/sf-pro-display-heavy-webfont.woff') format('woff');
     font-weight: 800;
-    font-style: extra bold;
 }
 
 @font-face {
@@ -27,7 +24,6 @@
     src: url('fonts/sf-pro-display-medium-webfont.woff2') format('woff2'),
         url('fonts/sf-pro-display-medium-webfont.woff') format('woff');
     font-weight: 500;
-    font-style: medium;
 }
 
 @font-face {
@@ -35,7 +31,6 @@
     src: url('fonts/sf-pro-display-semibold-webfont.woff2') format('woff2'),
         url('fonts/sf-pro-display-semibold-webfont.woff') format('woff');
     font-weight: 600;
-    font-style: semibold;
 }
 
 .title {
@@ -53,4 +48,39 @@
     font-family: 'SF Pro Display';
     font-weight: 500;
     line-height: 26px;
+}
+
+.green-button {
+    background: repeating-linear-gradient(45deg,
+            #48B760,
+            #48B760 10px,
+            #5f5f5f 10px,
+            #5f5f5f 11px);
+    overflow: hidden;
+    font-family: 'SF Pro Display';
+    color: #FFF;
+    text-align: center;
+    font-size: 7px;
+    font-weight: 800;
+    line-height: 18px;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 4rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.green-button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.btn-01:hover {
+    background-color: white;
+    color: #457b9d;
 }
