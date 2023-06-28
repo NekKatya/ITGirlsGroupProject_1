@@ -70,6 +70,7 @@
     outline: none;
     cursor: pointer;
     transition: all 0.3s;
+    box-shadow: 0px 18px 33px -7px #A0D18C;
 }
 
 .green-button:after {
