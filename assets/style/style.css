@@ -136,3 +136,74 @@
     font-weight: 500;
     line-height: 18px;
 }
+
+.how-to-work {
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3*1fr);
+    grid-template-areas: "title" "parts" "button";
+}
+
+.article-1::before {
+    content: "";
+    background-image: url('../images/one.svg');
+    height: 110px;
+    width: 93px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-2::before {
+    content: "";
+    background-image: url('../images/two.svg');
+    height: 110px;
+    width: 93px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-3::before {
+    content: "";
+    background-image: url('../images/three.svg');
+    height: 110px;
+    width: 93px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-4::before {
+    content: "";
+    background-image: url('../images/four.svg');
+    height: 110px;
+    width: 93px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-5::before {
+    content: "";
+    background-image: url('../images/five.svg');
+    height: 110px;
+    width: 93px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parts {
+    grid-area: parts;
+    margin-left: 270px;
+    margin-right: 270px;
+    column-width: 319px;
+    column-count: 2;
+    column-gap: 10%;
+}
+
+.card__button {
+    display: grid;
+    grid-area: button;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
