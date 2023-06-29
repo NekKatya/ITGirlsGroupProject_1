@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/caption-logo-icon.svg" type="image/svg"/>
+    <link rel="shortcut icon" href="./assets/images/caption-logo-icon.svg" type="image/svg" />
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/fonts/">
@@ -66,8 +66,10 @@
 
 
         <section class="products-and-services"> <!-- товары и услуги - Вика -->
-            <h2 class="title">Товары и услуги</h2>
-            <img src="assets/images/caption-logo-icon.svg" alt="Логотип без имени">
+            <div class="title">
+                <img class="title-logo" src="assets/images/caption-logo-icon.svg" alt="Логотип без имени">
+                <h2 class="title-text">Товары и услуги</h2>
+            </div>
             <p class="abstract">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                 has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</p>
@@ -138,9 +140,11 @@
             </div>
         </section>
 
-        <section class="products-and-services"> <!-- как с нами работать - Вика -->
-            <h2 class="title">Как с нами работать</h2>
-            <img src="assets/images/caption-logo-icon.svg" alt="Логотип без имени">
+        <section class="how-to-work"> <!-- как с нами работать - Вика -->
+            <div class="title">
+                <h2 class="title-text">Как с нами работать</h2>
+                <img class="title-logo" src="assets/images/caption-logo-icon.svg" alt="Логотип без имени">
+            </div>
             <div class="parts">
                 <div class="part 1-of-5">
                     <div class="article article-1">
@@ -211,7 +215,7 @@
             <h2>Обратная связь</h2>
             <img src="./assets/images/caption-logo-icon.svg" alt="Logo without name" />
             <form class="search-form">
-                <input  class="search-form" type="text" name="firstname" placeholder="Имя*" />
+                <input class="search-form" type="text" name="firstname" placeholder="Имя*" />
                 <input class="search-form" type="tel" name="phone number" placeholder="Номер телефона*" />
                 <input class="search-form" type="email" name="email" placeholder="Электронная почта*" />
                 <textarea class="search-form" rows="10" cols="30">Введите сообщение</textarea>
