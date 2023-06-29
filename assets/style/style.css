@@ -207,3 +207,104 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.wrapper {
+    position: relative;
+    margin: 50px;
+}
+
+.header__landing {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas:
+    "header__logo header__nav header__phone";
+}
+
+.header__nav {
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    column-gap: 63px;
+    justify-content: space-around;
+
+    grid-area: header__nav;
+}
+
+.header__link {
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    color: #828282;
+}
+
+.header__phone {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "green-button"
+    "callback";
+
+    grid-area: header__phone;
+}
+
+.header__logo {
+    width: 162px;
+    height: 50px;
+
+    grid-area: header__logo;
+}
+
+.main__landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "main__content main__banner";
+}
+
+.maintitle {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.letterAGRO {
+    background-image: linear-gradient(to right, #48B760, #6BB748 );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.letterBOT {
+    color: #4F4F4F;
+    padding: 0px;
+}
+
+.main__about {
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    font-weight: 500;
+    color: #BDBDBD;
+    position: relative;
+    margin-top: 10px;
+}
+
+.main__about2 {
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    position: relative;
+    margin-top: 50px;
+}
+
+.main__button {
+    position: relative;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
