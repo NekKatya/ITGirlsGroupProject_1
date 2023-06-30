@@ -295,9 +295,8 @@
             </div>
         </section>
 
-        <section> <!-- обратная связь. Часть Юля -->
-            <h2>Обратная связь</h2>
-            <img src="./assets/images/caption-logo-icon.svg" alt="Logo without name" />
+        <section class="Feedback"> <!-- обратная связь. Часть Юля -->
+            <h2 class="title">Обратная связь</h2>
             <form class="search-form">
                 <input class="search-form" type="text" name="firstname" placeholder="Имя*" />
                 <input class="search-form" type="tel" name="phone number" placeholder="Номер телефона*" />
@@ -306,14 +305,14 @@
             </form>
             <button class="green-button">Свяжитесь с нами</button>
             <div>
-                <a href="..."><img src="./assets/images/map.png" alt="map" /></a>
-                <a href="..."><img src="./assets/images/location-icon.svg" alt="Icon location" /></a>
+                <a class="search__link" href="..."><img src="./assets/images/map.png" alt="map" /></a>
+                <a class="search__link" href="..."><img src="./assets/images/location-icon.svg" alt="Icon location" /></a>
                 <div>
                     <p>AGROBOT</p>
                     <address>
-                        <img src="./assets/images/ic_round-call.png" />
+                        <img src="./assets/images/ic_round-call.png" alt="icon phone"/>
                         <p>+7 (999) 999-99-99</p>
-                        <img src="./assets/images/location-icon-green.svg" />
+                        <img src="./assets/images/location-icon-green.svg" alt="icon location"/>
                         <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
                     </address>
                 </div>
@@ -321,12 +320,29 @@
                     <a href="..."><img src="./assets/images/office.png" alt="our office" /></a>
                 </div>
             </div>
-            <a href="..."><img src="./assets/images/client-service.svg" alt="bot assistant" /></a>
+            <a href="..."><img src="./assets/images/client-service.svg" class="clientservice_logo" alt="bot assistant" /></a>
         </section>
     </main>
-    <footer> <!-- Часть Юля  -->
-
+    <footer class="footer"> <!-- Часть Юля  -->
+        <div class="footer__nav">
+            <div><h3 class="footer__title">Agro</h3></div>
+            <div class="footer__nav">Карта сайта</div>
+            <div><a class="footer__link" href="#">Главная</a></div>
+            <div><a class="footer__link" href="#">Товары и услуги</a></div>
+            <div><a class="footer__link" href="#">Как с нами работать?</a></div>
+            <div><a class="footer__link" href="#">Партнеры</a></div>
+            <div><a class="footer__link" href="#">Контакты</a></div>
+        </div>
+        <div>
+            <h3 class="footer__nav">Социальные сети</h3>
+            <div><a href="#"> <img src="./assets/images/facebook-icon.svg" alt="icon facebook"></a></div>
+            <div><a href="#"> <img src="./assets/images/instagram-icon.svg" alt="icon instagram"></a></div>
+            <div><a href="#"> <img src="./assets/images/vk-icon.svg" alt="icon vk"></a></div>
+            <div><a href="#"> <img src="./assets/images/youtube-icon.svg" alt="icon youtube"></a></div>
+        </div>
+        <div class="footer__copyright">
+            <p>Все авторские права принадлежат AGROBOT 2020 год. Правила использования торговой марки <br>AGROBOT</p>
+        </div>
     </footer>
 </body>
-
 </html>

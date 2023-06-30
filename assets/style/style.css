@@ -301,10 +301,88 @@
     margin-top: 50px;
 }
 
+.search-form{
+    border-radius: 34px;
+    background: #F2F2F2;
+    padding: 10px;
+    color: var(--gray-4, #BDBDBD);
+    font-size: 24px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
+.Feedback{
+    background: url(../images/Vector\ 8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.search-form{
 
+}
 
+.search__link{
+    cursor: pointer;
+}
 
+.footer{
+    background-color: #4F4F4F;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footer__nav{
+
+}
+
+.footer__title{
+    color: var(--gray-6, #F2F2F2);
+    font-size: 36px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    grid-area: title;
+}
+
+.footer__title::before{
+    content: "";
+    background-image: url('../images/footer-logo.svg');
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer__nav{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footer__link{
+    color: var(--gray-3, #828282);
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer__copyright::after{
+    content: "\00A9";
+}
 
 
