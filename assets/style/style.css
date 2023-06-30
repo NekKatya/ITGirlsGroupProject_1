@@ -267,10 +267,10 @@
 }
 
 .letterAGRO {
-    background-image: linear-gradient(to right, #48B760, #6BB748 );
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+	background-image: linear-gradient(to right, #48b760, #6bb748);
+	color: transparent;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .letterBOT {
