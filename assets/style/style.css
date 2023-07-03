@@ -36,9 +36,12 @@
 .wrapper {
     position: relative;
     
-    width: 93.06%;
+    max-width: 1340px;
     margin: 0 auto;
 }
+
+
+
 
 .title {
     position: relative;
@@ -220,8 +223,11 @@
     margin-bottom: 50px;
 }
 
+
 .header__landing {
     display: grid;
+    margin-top: 40px;
+    grid-gap: 15px;
     grid-template-columns: 1fr 6fr 1fr;
     grid-template-areas:
     "header__logo header__nav header__phone";
@@ -269,20 +275,17 @@
 
 .maintitle {
     position: relative;
-    margin-top: 100px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
 .letterAGRO {
-	background-image: linear-gradient(to right, #48b760, #6bb748);
-	color: transparent;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+    color: #48b760;
+
 }
 
 .letterBOT {
     color: #4F4F4F;
-    padding: 0px;
+    margin-left: -20px;
 }
 
 .main__about {
@@ -306,6 +309,41 @@
 .main__button {
     position: relative;
     margin-top: 50px;
+}
+
+.absolute {
+	position: relative;
+	z-index: 2;
+}
+
+.callback {
+	position: absolute;
+	border-radius: 3rem;
+	padding: 30px 30px 7px;
+	top: 20px;
+	right: 0;
+    background-color: #4B6350;
+    color: white;
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main__clientservice-logo {
+    position: relative;
+    margin-top: 130px;
+}
+
+.main__clientservice-info {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.main__banner {
+	display: flex;
+	align-items: flex-end;
+	/* flex-direction: row; */
 }
 
 /* Section credit */
