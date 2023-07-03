@@ -33,6 +33,18 @@
     font-weight: 600;
 }
 
+@media screen and (min-width: 1440px){
+    body{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 1440px){
+    
+}
+
 .wrapper {
     position: relative;
     
@@ -544,7 +556,7 @@
 }
 
 .search-form{
-
+    color: #4F4F4F;
 }
 
 .search__link{
@@ -563,7 +575,7 @@
 }
 
 .footer__nav{
-
+    color: #4F4F4F;
 }
 
 .footer__title{
