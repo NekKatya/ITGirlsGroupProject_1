@@ -314,65 +314,69 @@
             </section>
         </div>
 
-        <section class="Feedback"> <!-- обратная связь. Часть Юля -->
+        <section class="Feedback"> <!-- обратная связь. Юля -->
             <div class="wrapper">
                 <h2 class="title">Обратная связь</h2>
-                <form class="search-form">
-                    <input class="search-form" type="text" name="firstname" placeholder="Имя*" />
-                    <input class="search-form" type="tel" name="phone number" placeholder="Номер телефона*" />
-                    <input class="search-form" type="email" name="email" placeholder="Электронная почта*" />
-                    <textarea class="search-form" rows="10" cols="30">Введите сообщение</textarea>
+                <div class="search-form">
+                <form class="search-form__list" autocomplete="on" name="Feedback" action="script" method="post" id="feedback">
+                    <input class="search-form__input" type="text" name="firstname" placeholder="Имя*" required/>
+                    <input class="search-form__input" type="tel" name="phone number" placeholder="Номер телефона*" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" minlength="11" />
+                    <input class="search-form__input" type="email" name="email" placeholder="Электронная почта*" required/>
+                    <textarea class="search-form__input"  name="text area" autocomplete="off" autofocus placeholder="Введите сообщение" ></textarea>
                 </form>
-                <button class="green-button">Свяжитесь с нами</button>
-                <div>
-                    <a class="search__link" href="..."><img src="./assets/images/map.png" alt="map" /></a>
-                    <a class="search__link" href="..."><img src="./assets/images/location-icon.svg"
-                            alt="Icon location" /></a>
-                    <div>
-                        <p>AGROBOT</p>
-                        <address>
-                            <img src="./assets/images/ic_round-call.png" alt="icon phone" />
-                            <p>+7 (999) 999-99-99</p>
-                            <img src="./assets/images/location-icon-green.svg" alt="icon location" />
-                            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
-                        </address>
+                <div class="search-form__map">
+                    <div class="search-form__map__contacts">
+                        <div class="search-form__map__address">
+                            <p>AGROBOT</p>
+                            <address>
+                                <p><a href=""><img src="./assets/images/ic_round-call.png" alt="icon phone"/>+7 (999) 999-99-99</a></p>
+                                <p><img src="./assets/images/location-icon-green.svg" alt="icon location"/>2972 Westheimer Rd.</br> 
+                                Santa Ana, Illinois 85486</br></p>
+                            </address>
+                        </div>
                     </div>
-                    <div>
+                    <div class="search-form__map__img">
                         <a href="..."><img src="./assets/images/office.png" alt="our office" /></a>
                     </div>
                 </div>
-                <a href="..."><img src="./assets/images/client-service.svg" class="clientservice_logo"
-                        alt="bot assistant" /></a>
+                <div class="search-form__green-button"><input type="submit" class="green-button" form="feedback" formmethod="post"  formtarget="feedback_blank" value="Свяжитесь с нами"></input>
+                </div>
+                <div class="search-form__clientservice_logo"><a href="..."><img src="./assets/images/client-service.svg" class="clientservice_logo" alt="bot assistant" /></a></div>
+                </div>
             </div>
         </section>
     </main>
-
-    <footer class="footer"> <!-- Часть Юля  -->
+    <footer class="footer"> <!-- Подвал. Юля  -->
         <div class="wrapper">
-            <div class="footer__nav">
-                <div>
-                    <h3 class="footer__title">Agro</h3>
+            <div class="footer__container">
+            <div class="footer__title">
+                <h3>Agro</h3>
+            </div>
+            <ul class="footer__list">
+                <li><a class="footer__link" href="#">Карта сайта</a></li>
+                <li><a class="footer__link" href="#">Главная</a></li>
+                <li><a class="footer__link" href="#">Товары и услуги</a></li>
+                <li><a class="footer__link" href="#">Как с нами работать?</a></li>
+            </ul>
+            <ul class="footer__list">
+                <li><a class="footer__link" href="#">Партнеры</a></li>
+                <li><a class="footer__link" href="#">Кредитование</a></li>
+                <li><a class="footer__link" href="#">Контакты</a></li>
+            </ul>
+            <div class="footer__socials"><!-- sec aboutus  -->
+                <h3 class="footer__list__name">Социальные сети</h3>
+            <ul class="footer__socials__list">
+                <li><a href="#"> <img src="./assets/images/facebook-icon.svg" alt="icon facebook"></a></li>
+                <li><a href="#"> <img src="./assets/images/instagram-icon.svg" alt="icon instagram"></a></li>
+                <li><a href="#"> <img src="./assets/images/vk-icon.svg" alt="icon vk"></a></li>
+                <li><a href="#"> <img src="./assets/images/youtube-icon.svg" alt="icon youtube"></a></li>
+            </ul>
+            </div>
+            </div>
+                <div class="copyright">
+                <p>Все авторские права принадлежат AGROBOT 2020 год. Правила использования торговой марки <br>AGROBOT</p>
                 </div>
-                <div class="footer__nav">Карта сайта</div>
-                <div><a class="footer__link" href="#">Главная</a></div>
-                <div><a class="footer__link" href="#">Товары и услуги</a></div>
-                <div><a class="footer__link" href="#">Как с нами работать?</a></div>
-                <div><a class="footer__link" href="#">Партнеры</a></div>
-                <div><a class="footer__link" href="#">Контакты</a></div>
-            </div>
-            <div>
-                <h3 class="footer__nav">Социальные сети</h3>
-                <div><a href="#"> <img src="./assets/images/facebook-icon.svg" alt="icon facebook"></a></div>
-                <div><a href="#"> <img src="./assets/images/instagram-icon.svg" alt="icon instagram"></a></div>
-                <div><a href="#"> <img src="./assets/images/vk-icon.svg" alt="icon vk"></a></div>
-                <div><a href="#"> <img src="./assets/images/youtube-icon.svg" alt="icon youtube"></a></div>
-            </div>
-            <div class="footer__copyright">
-                <p>Все авторские права принадлежат AGROBOT 2020 год. Правила использования торговой марки <br>AGROBOT
-                </p>
-            </div>
         </div>
     </footer>
 </body>
-
 </html>
