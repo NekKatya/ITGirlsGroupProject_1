@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: п 'SF Pro Display';
+    font-family: 'SF Pro Display';
     src: url('fonts/sf-pro-display-bold-webfont.woff2') format('woff2'),
         url('fonts/SF-Pro-Display-Bold.otf') format('otf'),
         url('fonts/SF-Pro-Display-Bold.eot') format('eot'),
@@ -182,7 +182,7 @@
 .how-to-work {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3*1fr);
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "title" "parts" "button";
 }
 
