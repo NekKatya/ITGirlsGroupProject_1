@@ -182,7 +182,7 @@
 .how-to-work {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr*3);
     grid-template-areas: "title" "parts" "button";
 }
 
