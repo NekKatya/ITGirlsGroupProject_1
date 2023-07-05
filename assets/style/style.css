@@ -104,11 +104,11 @@
 }
 
 .green-button {
-    background: repeating-linear-gradient(45deg,
-            #48B760,
-            #48B760 10px,
-            #5f5f5f 10px,
-            #5f5f5f 11px);
+    background: repeating-linear-gradient(-80deg,
+    #56b756 ,
+    #56b756 4px,
+    #56b34f 4px,
+    #56b34f 5px);
     overflow: hidden;
     font-family: 'SF Pro Display';
     color: #FFF;
@@ -116,6 +116,7 @@
     font-size: 7px;
     font-weight: 800;
     line-height: 18px;
+    text-decoration: none;
     padding: 7px 30px;
     text-transform: uppercase;
     position: relative;
