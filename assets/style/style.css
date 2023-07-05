@@ -136,9 +136,7 @@
 
 .products-and-services {
     display: grid;
-    margin-left: 50px;
-    margin-right: 50px;
-    grid-template-rows: 30% 10% 1fr;
+    grid-template-rows: 30% 15% 1fr;
     grid-template-areas: "title" "abstract" "cards";
 }
 
@@ -152,7 +150,6 @@
 .card {
     border: transparent;
     border-radius: 20px;
-    max-width: 315px;
     margin: 0 auto;
     padding: 50px;
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
@@ -163,9 +160,14 @@
     color: var(--gray-3, #828282);
     text-align: center;
     font-size: 24px;
+    margin: 0;
     font-family: 'SF Pro Display';
     font-weight: 700;
     line-height: 26px;
+}
+
+.icon {
+    margin-bottom: 30px;
 }
 
 .card__description {
@@ -179,65 +181,83 @@
 
 .how-to-work {
     display: grid;
-    margin-left: 50px;
-    margin-right: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3*1fr);
     grid-template-areas: "title" "parts" "button";
 }
 
+.part-columns {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.part-columns+.part-columns {
+    margin-left: 15%;
+}
+
+.article {
+    position: relative;
+}
+
 .article-1::before {
     content: "";
+    position: absolute;
     background-image: url('../images/one.svg');
     height: 110px;
     width: 93px;
-    display: inline-block;
-    vertical-align: middle;
+    top: 15px;
+    right: 390px;
 }
 
 .article-2::before {
     content: "";
+    position: absolute;
     background-image: url('../images/two.svg');
     height: 110px;
     width: 93px;
-    display: inline-block;
-    vertical-align: middle;
+    top: 15px;
+    right: 390px;
 }
 
 .article-3::before {
     content: "";
+    position: absolute;
     background-image: url('../images/three.svg');
     height: 110px;
     width: 93px;
-    display: inline-block;
-    vertical-align: middle;
+    top: 15px;
+    right: 390px;
 }
 
 .article-4::before {
     content: "";
+    position: absolute;
     background-image: url('../images/four.svg');
     height: 110px;
     width: 93px;
-    display: inline-block;
-    vertical-align: middle;
+    top: 15px;
+    right: 390px;
 }
 
 .article-5::before {
     content: "";
+    position: absolute;
     background-image: url('../images/five.svg');
     height: 110px;
     width: 93px;
-    display: inline-block;
-    vertical-align: middle;
+    top: 15px;
+    right: 390px;
 }
 
 .parts {
-    grid-area: parts;
-    margin-left: 270px;
-    margin-right: 270px;
-    column-width: 319px;
-    column-count: 2;
-    column-gap: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .card__button {
