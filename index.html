@@ -29,7 +29,7 @@
                 </div>
                 <div class="header__phone">
                     <a class="green-button absolute" href="tel:+79999999999">+7 (999) 999-99-99</a>
-                        
+
                     <button class="callback">Нужен звонок</button>
                 </div>
             </section>
@@ -56,8 +56,10 @@
                     </div>
 
                     <div class="main__clientservice">
-                        <img class="main__clientservice-logo" src="assets/images/client-service.svg" alt="client-service">
-                        <p class="main__clientservice-info">Ваш личный отдел закупок готов к работе,сделайте заявку на товар и
+                        <img class="main__clientservice-logo" src="assets/images/client-service.svg"
+                            alt="client-service">
+                        <p class="main__clientservice-info">Ваш личный отдел закупок готов к работе,сделайте заявку на
+                            товар и
                             выбирайте
                             наиболее выгодные условия!</p>
                     </div>
@@ -99,9 +101,6 @@
                                     <img class="icon icon-seeds" src="assets/images/seeds.svg" alt="Семена">
                                     <h3 class="card__heading">Семена</h3>
                                     <p class="card__description">(Разъяснительная строка)</p>
-                                </div>
-
-                                <div class="card__button">
                                     <button class="green-button">Создать запрос</button>
                                 </div>
                             </div>
@@ -115,9 +114,6 @@
                                     <img class="icon icon-agriculture" src="assets/images/agriculture.svg" alt="СЗР">
                                     <h3 class="card__heading">СЗР</h3>
                                     <p class="card__description">(Разъяснительная строка)</p>
-                                </div>
-
-                                <div class="card__button">
                                     <button class="green-button">Создать запрос</button>
                                 </div>
                             </div>
@@ -132,9 +128,6 @@
                                         alt="Иконка молнии">
                                     <h3 class="card__heading">Удобрения</h3>
                                     <p class="card__description">(Разъяснительная строка)</p>
-                                </div>
-
-                                <div class="card__button">
                                     <button class="green-button">Создать запрос</button>
                                 </div>
                             </div>
@@ -148,9 +141,6 @@
                                     <img class="icon icon-tractor" src="assets/images/tractor.svg" alt="Трактор">
                                     <h3 class="card__heading">Техника</h3>
                                     <p class="card__description">(Разъяснительная строка)</p>
-                                </div>
-
-                                <div class="card__button">
                                     <button class="green-button">Создать запрос</button>
                                 </div>
                             </div>
@@ -162,7 +152,7 @@
             <section class="how-to-work"> <!-- как с нами работать - Вика -->
                 <h2 class="title">Как с нами работать</h2>
                 <div class="parts">
-                    <div class="part-1-of-5">
+                    <div class="part-columns">
                         <div class="article article-1">
                             <p class="title-of-article">What is Lorem Ipsum?</p>
                             <p class="paragrapgh-of-article">Lorem Ipsum is simply dummy text of the printing and
@@ -171,9 +161,7 @@
                                 took a
                                 galley</p>
                         </div>
-                    </div>
 
-                    <div class="part-1-of-5">
                         <div class="article article-2">
                             <p class="title-of-article">What is Lorem Ipsum?</p>
                             <p class="paragrapgh-of-article">Lorem Ipsum is simply dummy text of the printing and
@@ -182,9 +170,7 @@
                                 took a
                                 galley</p>
                         </div>
-                    </div>
 
-                    <div class="part-1-of-5">
                         <div class="article article-3">
                             <p class="title-of-article">What is Lorem Ipsum?</p>
                             <p class="paragrapgh-of-article">Lorem Ipsum is simply dummy text of the printing and
@@ -195,7 +181,7 @@
                         </div>
                     </div>
 
-                    <div class="part-1-of-5">
+                    <div class="part-columns">
                         <div class="article article-4">
                             <p class="title-of-article">What is Lorem Ipsum?</p>
                             <p class="paragrapgh-of-article">Lorem Ipsum is simply dummy text of the printing and
@@ -204,9 +190,7 @@
                                 took a
                                 galley</p>
                         </div>
-                    </div>
 
-                    <div class="part-1-of-5">
                         <div class="article article-5">
                             <p class="title-of-article">What is Lorem Ipsum?</p>
                             <p class="paragrapgh-of-article">Lorem Ipsum is simply dummy text of the printing and
@@ -318,30 +302,39 @@
             <div class="wrapper">
                 <h2 class="title">Обратная связь</h2>
                 <div class="search-form">
-                <form class="search-form__list" autocomplete="on" name="Feedback" action="script" method="post" id="feedback">
-                    <input class="search-form__input" type="text" name="firstname" placeholder="Имя*" required/>
-                    <input class="search-form__input" type="tel" name="phone number" placeholder="Номер телефона*" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" minlength="11" />
-                    <input class="search-form__input" type="email" name="email" placeholder="Электронная почта*" required/>
-                    <textarea class="search-form__input"  name="text area" autocomplete="off" autofocus placeholder="Введите сообщение" ></textarea>
-                </form>
-                <div class="search-form__map">
-                    <div class="search-form__map__contacts">
-                        <div class="search-form__map__address">
-                            <p>AGROBOT</p>
-                            <address>
-                                <p><a href=""><img src="./assets/images/ic_round-call.png" alt="icon phone"/>+7 (999) 999-99-99</a></p>
-                                <p><img src="./assets/images/location-icon-green.svg" alt="icon location"/>2972 Westheimer Rd.</br> 
-                                Santa Ana, Illinois 85486</br></p>
-                            </address>
+                    <form class="search-form__list" autocomplete="on" name="Feedback" action="script" method="post"
+                        id="feedback">
+                        <input class="search-form__input" type="text" name="firstname" placeholder="Имя*" required />
+                        <input class="search-form__input" type="tel" name="phone number" placeholder="Номер телефона*"
+                            required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" minlength="11" />
+                        <input class="search-form__input" type="email" name="email" placeholder="Электронная почта*"
+                            required />
+                        <textarea class="search-form__input" name="text area" autocomplete="off" autofocus
+                            placeholder="Введите сообщение"></textarea>
+                    </form>
+                    <div class="search-form__map">
+                        <div class="search-form__map__contacts">
+                            <div class="search-form__map__address">
+                                <p>AGROBOT</p>
+                                <address>
+                                    <p><a href=""><img src="./assets/images/ic_round-call.png" alt="icon phone" />+7
+                                            (999) 999-99-99</a></p>
+                                    <p><img src="./assets/images/location-icon-green.svg" alt="icon location" />2972
+                                        Westheimer Rd.</br>
+                                        Santa Ana, Illinois 85486</br></p>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="search-form__map__img">
+                            <a href="..."><img src="./assets/images/office.png" alt="our office" /></a>
                         </div>
                     </div>
-                    <div class="search-form__map__img">
-                        <a href="..."><img src="./assets/images/office.png" alt="our office" /></a>
+                    <div class="search-form__green-button"><input type="submit" class="green-button" form="feedback"
+                            formmethod="post" formtarget="feedback_blank" value="Свяжитесь с нами"></input>
                     </div>
-                </div>
-                <div class="search-form__green-button"><input type="submit" class="green-button" form="feedback" formmethod="post"  formtarget="feedback_blank" value="Свяжитесь с нами"></input>
-                </div>
-                <div class="search-form__clientservice_logo"><a href="..."><img src="./assets/images/client-service.svg" class="clientservice_logo" alt="bot assistant" /></a></div>
+                    <div class="search-form__clientservice_logo"><a href="..."><img
+                                src="./assets/images/client-service.svg" class="clientservice_logo"
+                                alt="bot assistant" /></a></div>
                 </div>
             </div>
         </section>
@@ -349,34 +342,36 @@
     <footer class="footer"> <!-- Подвал. Юля  -->
         <div class="wrapper">
             <div class="footer__container">
-            <div class="footer__title">
-                <h3>Agro</h3>
-            </div>
-            <ul class="footer__list">
-                <li><a class="footer__link" href="#">Карта сайта</a></li>
-                <li><a class="footer__link" href="#">Главная</a></li>
-                <li><a class="footer__link" href="#">Товары и услуги</a></li>
-                <li><a class="footer__link" href="#">Как с нами работать?</a></li>
-            </ul>
-            <ul class="footer__list">
-                <li><a class="footer__link" href="#">Партнеры</a></li>
-                <li><a class="footer__link" href="#">Кредитование</a></li>
-                <li><a class="footer__link" href="#">Контакты</a></li>
-            </ul>
-            <div class="footer__socials"><!-- sec aboutus  -->
-                <h3 class="footer__list__name">Социальные сети</h3>
-            <ul class="footer__socials__list">
-                <li><a href="#"> <img src="./assets/images/facebook-icon.svg" alt="icon facebook"></a></li>
-                <li><a href="#"> <img src="./assets/images/instagram-icon.svg" alt="icon instagram"></a></li>
-                <li><a href="#"> <img src="./assets/images/vk-icon.svg" alt="icon vk"></a></li>
-                <li><a href="#"> <img src="./assets/images/youtube-icon.svg" alt="icon youtube"></a></li>
-            </ul>
-            </div>
-            </div>
-                <div class="copyright">
-                <p>Все авторские права принадлежат AGROBOT 2020 год. Правила использования торговой марки <br>AGROBOT</p>
+                <div class="footer__title">
+                    <h3>Agro</h3>
                 </div>
+                <ul class="footer__list">
+                    <li><a class="footer__link" href="#">Карта сайта</a></li>
+                    <li><a class="footer__link" href="#">Главная</a></li>
+                    <li><a class="footer__link" href="#">Товары и услуги</a></li>
+                    <li><a class="footer__link" href="#">Как с нами работать?</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li><a class="footer__link" href="#">Партнеры</a></li>
+                    <li><a class="footer__link" href="#">Кредитование</a></li>
+                    <li><a class="footer__link" href="#">Контакты</a></li>
+                </ul>
+                <div class="footer__socials"><!-- sec aboutus  -->
+                    <h3 class="footer__list__name">Социальные сети</h3>
+                    <ul class="footer__socials__list">
+                        <li><a href="#"> <img src="./assets/images/facebook-icon.svg" alt="icon facebook"></a></li>
+                        <li><a href="#"> <img src="./assets/images/instagram-icon.svg" alt="icon instagram"></a></li>
+                        <li><a href="#"> <img src="./assets/images/vk-icon.svg" alt="icon vk"></a></li>
+                        <li><a href="#"> <img src="./assets/images/youtube-icon.svg" alt="icon youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Все авторские права принадлежат AGROBOT 2020 год. Правила использования торговой марки <br>AGROBOT
+                </p>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
